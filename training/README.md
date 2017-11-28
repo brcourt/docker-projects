@@ -1,0 +1,1 @@
+These projects are used for training purposes. There may be intentionally broken images, or silly images. 
