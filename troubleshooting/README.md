@@ -11,7 +11,7 @@ Installed Packages:
 * iputils-ping
 * net-tools
 
-To use, make sure to use docker run specifying the nett, pid, and ipc namespaces of the container you want to troubleshoot
+To use, make sure to use docker run specifying the net, pid, and ipc namespaces of the container you want to troubleshoot
 ```bash
 docker run --it -netd=container:<container-id> -pid=container:<container-id> --ipc=container:<container-id> bccourt/testing:tshoot
 ```
