@@ -87,4 +87,4 @@ drwxr-xr-x  10 root root 4096 May 26 00:44 usr
 drwxr-xr-x  11 root root 4096 May 26 00:45 var
 ```
 
-Docker run does not allow placing coniners in the same Mount namespace, but if we run in the same ipc namespace, we can share files placed in /dev/shm as a dirty workaround. Might be helpful to copy application logs or metrics from container A to the tshoot container, since container A doesn't have any troubleshooting or parsing tools installed.
+Docker run does not allow placing containers in the same Mount namespace, but if we run in the same ipc namespace, we can share files placed in /dev/shm as a dirty workaround. Might be helpful to copy application logs or metrics from container A to the tshoot container, since container A doesn't have any troubleshooting or parsing tools installed.
